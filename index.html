@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORSA4ALL - One Chance, All It Takes</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loader-overlay">
+        <div class="loader-content">
+
+            <div class="loader-spinner"></div>
+
+        </div>
+    </div>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="data/logo.png" alt="FORSA4ALL Logo" class="logo-img" /> FORSA4ALL
+            </div>
+            <nav class="navbar" id="navbar">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#members">Members</a>
+                <a href="#contact">Contact</a>
+                <a href="#join">Join Us</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="motion-bg">
+            <div class="art-splash splash1"></div>
+            <div class="art-splash splash2"></div>
+            <div class="art-splash splash3"></div>
+        </div>
+        <div class="hero-content">
+
+            <h1>FORSA4ALL</h1>
+            <p>One chance, all it takes to transform your potential into success.</p>
+            <a href="#projects" class="cta-button">Explore Projects</a>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="scroll-reveal">
+        <div class="motion-bg">
+            <div class="art-splash splash1"></div>
+            <div class="art-splash splash2"></div>
+            <div class="art-splash splash3"></div>
+        </div>
+        <h2 class="section-title">Our Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" data-project="sport">
+                <div class="project-icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <h3>Sport</h3>
+                <p>Engaging community sports programs to build teamwork and physical wellness.</p>
+                <div class="project-responsible">Led by xxxxx</div>
+            </div>
+            <div class="project-card" data-project="languages">
+                <div class="project-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <h3>Languages</h3>
+                <p>Interactive language workshops and cultural exchange programs.</p>
+                <div class="project-responsible">Led by xxxx</div>
+            </div>
+            <div class="project-card" data-project="art">
+                <div class="project-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Art</h3>
+                <p>Creative expression through theatre, music, and dance performances.</p>
+                <div class="project-responsible">Led by xxxx</div>
+            </div>
+            <div class="project-card" data-project="tech">
+                <div class="project-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Technology</h3>
+                <p>Web development, robotics, and artificial intelligence workshops.</p>
+                <div class="project-responsible">Led by xxxx</div>
+            </div>
+            <div class="project-card" data-project="soft-skills">
+                <div class="project-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Soft Skills</h3>
+                <p>Leadership development and time management training programs.</p>
+                <div class="project-responsible">Led by xxxx
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Members Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="scroll-reveal">
+        <div class="motion-bg">
+            <div class="art-splash splash1"></div>
+            <div class="art-splash splash2"></div>
+            <div class="art-splash splash3"></div>
+        </div>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <a href="https://www.instagram.com/forsa.4all" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Follow us</p>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://wa.me/+212781119233" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with us</p>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/company/forsa4all" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect professionally</p>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="mailto:info@forsa4all.com" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Send us an email</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="scroll-reveal">
+        <div class="motion-bg">
+            <div class="art-splash splash1"></div>
+            <div class="art-splash splash2"></div>
+            <div class="art-splash splash3"></div>
+        </div>
+        <h2 class="section-title">Join Our Club</h2>
+        <form class="join-form" id="join-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your full name">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="e.g. +212781119233">
+            </div>
+            <div class="form-group">
+                <label for="reason">Why do you want to join?</label>
+                <textarea id="reason" name="reason" rows="4" required placeholder="Share your motivation..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Submit Application
+            </button>
+        </form>
+    </section>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div style="text-align: center;">
+                <div style="font-size: 4rem; color: var(--accent-color); margin-bottom: 1rem;">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+
+                <h3>Message Sent!</h3>
+                <p>Your WhatsApp message has been opened. Please send the message to complete your application.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <p>&copy; 2025-2026 FORSA4ALL</p>
+            <span class="footer-divider">|</span>
+            <span class="footer-tagline">Empowering communities, one opportunity at a time.</span>
+        </div>
+        <div class="footer-meta">
+            <span>Made by the FORSA4ALL Team</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
